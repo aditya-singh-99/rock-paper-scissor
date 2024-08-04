@@ -1,0 +1,63 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.body{
+    text-align: center;
+}
+.wrapper{
+    height: 100vh;
+    width: 100vw;
+    text-align: center;
+}
+
+h1{
+    background-color:darkblue;
+    color: white;
+    padding: 1rem 0;
+}
+
+.choices{
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    height: 15rem;
+    width: 40rem;
+}
+
+.choice{
+    width: 30%;
+}
+
+.choice:hover{
+    background-color: darkblue;
+    cursor: pointer;
+}
+
+img{
+    height: auto;
+    width: 100%;
+    border-radius: 100%;
+}
+
+.scorecard{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 2rem;
+    font-size: xx-large;
+}
+
+#result{
+    font-size: xx-large;
+    background-color: darkblue;
+    width: 20rem;
+    margin: auto;
+    margin-top: 4rem;
+    padding: 1rem 3rem;
+    color: white;
+    border-radius: 1rem;
+}
